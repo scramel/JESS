@@ -45,8 +45,8 @@ export default {
       background: linear-gradient(#101820 0%, rgba(16, 24, 32, 0.449) 50%, #101820 100%);
 
       &--blue {
-        transform: rotate(180deg);
-        background: linear-gradient(0deg, #0E3144 0%, rgba(0, 0, 0, 0) 100%)
+        // transform: rotate(180deg);
+        background: linear-gradient(0deg, #0E3144 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, #0E3144 0%, rgba(0, 0, 0, 0) 100%);
       }
     }
 

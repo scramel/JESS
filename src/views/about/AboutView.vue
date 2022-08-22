@@ -3,7 +3,7 @@
     <BoardBackgorund>
       <NavBar />
       <div class="py-5 text-center text-white font-weight-bold">
-        <h1 class="py-5 text-uppercase">
+        <h1 class="py-5 text-uppercase font-weight-bold">
           About
         </h1>
       </div>
