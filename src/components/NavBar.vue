@@ -8,28 +8,28 @@
           <b-nav-item href="#">
             <b-button variant="link" class="text-uppercase font-weight-semibold">
               <router-link :to="{ name: 'home' }">
-                home
+                Inicio
               </router-link>
             </b-button>
           </b-nav-item>
           <b-nav-item href="#">
             <b-button variant="link" class="text-uppercase font-weight-semibold">
             <router-link :to="{ name: 'about' }">
-                about
+                quiénes sómos
               </router-link>
             </b-button>
           </b-nav-item>
           <b-nav-item href="#">
             <b-button variant="link" class="text-uppercase font-weight-semibold">
               <router-link :to="{ name: 'services' }">
-                services
+                nuestros servicios
               </router-link>
             </b-button>
           </b-nav-item>
           <b-nav-item href="#">
             <b-button variant="outline-primary" class="text-uppercase font-weight-semibold">
               <router-link :to="{ name: 'contact' }">
-                contact
+                contáctenos
               </router-link>
             </b-button>
           </b-nav-item>

@@ -8,32 +8,32 @@
           </h1>
           <p>
             <small>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis ever.
+              Todos los derechos reservados 2022. Corporacionjess.com
             </small>
           </p>
         </b-col>
         <b-col offset-lg="1" lg="2">
           <b-button variant="link" size="sm">
             <small>
-              link-1
+              Inicio
             </small>
           </b-button>
           <br>
           <b-button variant="link" size="sm">
             <small>
-              link-2
+              Quiénes Sómos
             </small>
           </b-button>
           <br>
           <b-button variant="link" size="sm">
             <small>
-              link-3
+              Nuestros Servicios
             </small>
           </b-button>
           <br>
           <b-button variant="link" size="sm">
             <small>
-              link-4
+              Contáctenos
             </small>
           </b-button>
         </b-col>
@@ -50,10 +50,9 @@
             </div>
           </div>
           <small>
-            Lorem ipsum dolor sit amet consectetur <br>
-            Lorem ipsum dolor sit amet consectetur <br>
-            Lorem ipsum dolor sit amet consectetur <br>
-            Lorem ipsum dolor sit amet consectetur
+            Ubicación: Av. Soublette. Edf. Centro Soublette Piso 6. Ofc 6-C. Sector El Cardonal. La Guaira. Estado Vargas.<br>
+            Teléfonos: +58(212) 3319119 / +58(424) 2590227. <br>
+            E-mail: info@corporacionjess.com <br>
           </small>
         </b-col>
       </b-row>

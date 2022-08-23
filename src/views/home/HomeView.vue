@@ -7,10 +7,11 @@
         <b-row class="pb-5">
           <b-col offset-lg="6" lg="6" class="mb-5 text-white">
             <h1 class="pt-5 font-weight-bold text-uppercase">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit reiciendis deleniti
+              Nuestro objetivo, es ser su departamento de logistica integral
             </h1>
             <p class="py-2">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro hic alias eum natus aspernatur deleniti ea reprehenderit ut amet nesciunt modi enim distinctio sit accusantium voluptatem dolorem, dolores quas quia.
+              Proporcionamos a nuestros clientes un eficiente e integral servicio
+logístico con soluciones que incluyen transporte aéreo, marítimo y terrestre, nacional e internacional.
             </p>
             <b-button variant="primary" class="mb-5 text-uppercase">
               conozca mas >
@@ -53,16 +54,22 @@
         </b-col>
         <b-col lg="5">
           <h3 class="mb-3 text-uppercase font-weight-bold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum assumenda eligendi nisi.
+            PROPORCIONAMOS A NUESTROS CLIENTES UN EFICIENTE E INTEGRAL SERVICIO
+LOGÍSTICO.
           </h3>
           <p class="mb-3">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque, quaerat accusantium, facere veniam aperiam minus error esse, obcaecati totam nesciunt officia fugiat. Saepe officia adipisci rem praesentium vel tenetur mollitia?
+            Somos una empresa que proporciona a nuestros clientes un eficiente e integral servicio
+logístico con soluciones que incluyen transporte aéreo, marítimo y terrestre, nacional e
+internacional.
           </p>
           <p class="mb-3">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. At, vero praesentium alias dolorem quisquam ad, in earum cumque sunt, ducimus omnis enim molestiae numquam minus fugit natus aliquid animi consectetur.
+            Nuestra propuesta incluye una amplia variedad de servicios adicionales, tales como
+trámites aduaneros, asesoría en comercio exterior, trámites especiales, sistema de rastreo
+- control de embarques, almacenaje, logística, empaque y embalaje, seguros de
+transporte, proyectos especiales y servicios intermodales.
           </p>
           <b-button class="text-uppercase" variant="primary">
-            learn more >
+            leer más >
           </b-button>
         </b-col>
       </b-row>
@@ -76,7 +83,7 @@
         <b-row class="text-white py-5">
           <b-col class="mb-4" lg="12">
             <h3 class=" text-uppercase font-weight-bold">
-              Title
+              ESTRATEGIAS
             </h3>
           </b-col>
 
