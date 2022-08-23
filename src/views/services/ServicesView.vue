@@ -4,7 +4,7 @@
       <NavBar />
       <div class="py-5 text-center text-white font-weight-bold">
         <h1 class="py-5 text-uppercase font-weight-bold">
-          Services
+          Nuetros servicios
         </h1>
       </div>
     </BoardBackgorund>
@@ -13,16 +13,16 @@
       <b-row>
         <b-col lg="12" class="pt-5 pb-5 text-center">
           <b-button class="mr-5 text-uppercase" variant="outline-primary">
-            button-1
+            importación y exportación
           </b-button>
           <b-button class="mr-5 text-uppercase" variant="outline-primary">
-            button-2
+            agencia naviera
           </b-button>
           <b-button class="mr-5 text-uppercase" variant="outline-primary">
-            button-3
+            brokeraje
           </b-button>
           <b-button class="text-uppercase" variant="outline-primary">
-            button-4
+            servicios adicionales
           </b-button>
         </b-col>
       </b-row>
@@ -33,32 +33,33 @@
         </b-col>
         <b-col offset-lg="1" lg="7">
           <h2 class="text-uppercase font-weight-semibold">
-            title
+            Importación y Exportación
           </h2>
           <h6 class="font-weight-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad voluptas esse,
+            Nuestra propuesta incluye una amplia variedad de servicios adicionales, tales como:
           </h6>
 
           <b-row>
             <b-col>
               <ul>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
+                <li>Asesoría en Clasificación Arancelaria.</li>
+                <li>Evaluación de costos de Importación y Exportación.</li>
+                <li>Asesoría en temas de Valoración Aduanera.</li>
+                <li>Asesoría en determinación de origen, incluyendo ROV's (Respuestas Oficiales Vinculantes).</li>
+                <li>Asesoría sobre el Régimen Legal Arancelario.</li>
+                <li>Asistencia en aplicación de la normativa del MERCOSUR.</li>
+                <li>Asesoramiento Integral en Comercio Internacional.</li>
+                <li>Gestión de Tramitación y Despacho Aduanero.</li>
+                <li>Administración de Operaciones con Cartas de Crédito.</li>
               </ul>
             </b-col>
             <b-col>
               <ul>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
-                <li>Lorem ipsum dolor sit amet consectetur. Ad voluptas esse,</li>
+                <li>Gestión Aduanera de mudanzas internacionales Particulares, Comerciales e Industriales.</li>
+                <li>Investigación estadística de importaciones, por empresa o por posición arancelaria.</li>
+                <li>Importación temporal, seguimiento y cancelación de garantías.</li>
+                <li>Gestión y obtención de seguros de caución.</li>
+                <li>Importación genera de Bienes.</li>
               </ul>
             </b-col>
           </b-row>
@@ -73,32 +74,31 @@
         <b-row class="text-white py-5">
           <b-col class="mb-4" lg="7">
             <h3 class=" text-uppercase font-weight-bold">
-              Title
+              Agencia Naviera
             </h3>
             <h6>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum esse, aut nostrum magnam, ipsa magni aspernatur, deserunt odit architecto vel blanditiis cumque quidem a odio alias. Quam nesciunt saepe nostrum!
+              Estamos en la capacidad de dar servicios de agencias generales en Venezuela, a las líneas de buques que dentro de sus itinerarios fijos recalan en los puertos de La Guaira, Puerto Cabello, Guanta y Maracaibo.
             </h6>
             <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quod culpa doloribus neque eius aperiam quae sit labore eaque exercitationem magnam, amet natus. Pariatur alias quidem ipsum tenetur voluptate ab adipisci?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis dolor ad facere corrupti assumenda veniam nisi, molestiae, illo quae harum ab fugiat, possimus illum id aspernatur. Quae dolor corporis quod?
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed magni autem ad dolores repudiandae hic eligendi est facere amet id, soluta ea molestiae nisi placeat accusamus provident beatae consectetur molestias?
+              Nuestra labor es la de velar por los intereses de nuestros clientes en todo el territorio nacional, atender a sus buques y su tripulaciones, velar por los contenedores en el país, asumir los compromisos administrativos y legales ante las autoridades, marítimas, aduanales y militares en todo el territorio nacional, vender comercialmente sus servicios marítimos, (fletes), para sus cargas de importación y exportación, velar ante la jurisdicción duanal correspondiente, la carga de tránsito o transbordo, asumir todos los compromisos administrativos que pueda generar las cargas que pudieran entrar en
+ régimen legal de abandono en las aduanas, velar por el cumplimiento de sus operaciones  engranar los protocolos operativos dentro de la legislación legal del país, en fin asumir n gran compromiso en nombre de nuestros clientes para su óptimo desempeño:
             </p>
             <b-row>
               <b-col>
                 <ul>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Agenciamiento de buque</li>
+                  <li>Atención a la tripulación</li>
+                  <li>Carga y descarga de buque</li>
+                  <li>Comisión por fletes de exportación</li>
+                  <li>Comisión por carga de importación</li>
                 </ul>
               </b-col>
               <b-col>
                 <ul>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
-                  <li>Lorem ipsum dolor sit amet.</li>
+                  <li>Manejo de sus contenedores vacíos</li>
+                  <li>Manejo de sus contenedores llenos</li>
+                  <li>Reparación de contenedores</li>
+                  <li>Control de contenedores</li>
                 </ul>
               </b-col>
             </b-row>
@@ -117,33 +117,34 @@
         </b-col>
         <b-col offset-lg="1" lg="7">
           <h2 class="text-uppercase font-weight-semibold">
-            title
+            Servicio de brokerage
           </h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias suscipit laboriosam dignissimos omnis eius pariatur praesentium cumque nulla magnam itaque accusamus, qui autem explicabo, ut perferendis. Eligendi atque voluptatem accusantium.
+            Nuestra función es mantener una estrecha relación comercial y operativa con armadores para poder ofrecerle a nuestros clientes los buques que necesiten para el transporte marítimo de las cargas.
           </p>
 
           <b-row>
             <b-col class="py-3">
               <h6 class="py-3 font-weight-semibold">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci odio, quasi illum ut vitae.
+                Dentro de las especificaciones de buques que tenemos disponibles están:
               </h6>
               <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
+                <li>Tanquero.</li>
+                <li>LPG.</li>
+                <li>Granelero.</li>
+                <li>Multipropósitos - cargas con over high y/o over weight.</li>
+                <li>Buques para carga contenerizada.</li>
               </ul>
             </b-col>
             <b-col class="py-3 ">
               <h6 class="py-3 font-weight-semibold">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis quidem ab.
+                Podemos ofrecer contratos de fletamento acorde a la operación a llevar adelante, dentro de los cuales puedes estar:
               </h6>
               <ul>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
-                <li>Lorem ipsum dolor sit amet</li>
+                <li>Fletamento a casco desnudo.</li>
+                <li>Fletamento por tiempo.</li>
+                <li>Fletamento por viaje.</li>
+                <li>Fletamento o contrato tipo COA.</li>
               </ul>
             </b-col>
           </b-row>
