@@ -4,7 +4,7 @@
       <NavBar />
       <div class="py-5 text-center text-white font-weight-bold">
         <h1 class="py-5 text-uppercase font-weight-bold">
-          Contact Us
+          Contáctenos
         </h1>
       </div>
     </BoardBackgorund>
@@ -15,10 +15,10 @@
         <b-row>
           <b-col lg="12" class="text-center">
             <h2 class="mb-3 font-weight-bold">
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate odit corrupti eligendi poss.
+              Gracias a nuestro profesionalismo, un importante grupo de empresas han depositado su confianza en nosotros
             </h2>
             <small>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, expedita quaerat molestias obcaecati libero tempora aperiam minus dolores deleniti animi inventore? Reiciendis nobis quibusdam consequuntur sint corrupti repellendus. Veniam, necessitatibus?
+              Nos esforzamos cada día en ofrecerles el mejor servicio minimizando sus costos y optimizando su operación. Si desea más información sobre nosotros.
             </small>
           </b-col>
 
