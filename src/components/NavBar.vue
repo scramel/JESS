@@ -52,6 +52,6 @@ export default {
 <style lang="scss">
   .navbarLogo > img {
     padding-left: 45px;
-    height: 50px;
+    height: 45px;
   }
 </style>

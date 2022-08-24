@@ -3,9 +3,9 @@
     <b-container>
       <b-row>
         <b-col lg="3">
-          <h1>
-            ICON
-          </h1>
+          <div class="footerLogo">
+            <img src="@/assets/images/jessLogoWhite.png" alt="Jess Logo">
+          </div>
           <p>
             <small>
               Todos los derechos reservados 2022. Corporacionjess.com
@@ -71,3 +71,10 @@ export default {
   }
 }
 </script>
+
+<style lang="scss">
+  .footerLogo > img {
+    padding-left: 15px;
+    height: 45px;
+  }
+</style>
