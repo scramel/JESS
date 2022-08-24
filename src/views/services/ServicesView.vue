@@ -20,7 +20,7 @@
           <b-button squared class="mr-5 text-uppercase" variant="outline-primary">
             brokeraje
           </b-button>
-          <b-button squared class="text-uppercase" variant="outline-primary">
+          <b-button squared  class="text-uppercase" variant="outline-primary">
             servicios adicionales
           </b-button>
         </b-col>
