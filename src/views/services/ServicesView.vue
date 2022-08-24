@@ -8,7 +8,6 @@
         </h1>
       </div>
     </BoardBackgorund>
-
     <b-container>
       <b-row>
         <b-col lg="12" class="pt-5 pb-5 text-center">
@@ -26,7 +25,6 @@
           </b-button>
         </b-col>
       </b-row>
-
       <b-row class="py-5">
         <b-col lg="4" class="overflow-hidden">
           <img src="@/assets/images/bg-3.jpg" alt="bg-2" height="500px" style="transform: translateX(-25%)">
@@ -38,7 +36,6 @@
           <h6 class="font-weight-semibold">
             Nuestra propuesta incluye una amplia variedad de servicios adicionales, tales como:
           </h6>
-
           <b-row>
             <b-col>
               <ul>

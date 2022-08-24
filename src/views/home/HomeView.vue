@@ -37,6 +37,7 @@ logístico con soluciones que incluyen <span class="overlay-text_primary"> trans
             <div class="board-bg__gradient board-bg__gradient--blue" />
             <div class="py-4 board-bg__content">
               <b-img fluid :src="image.icon" alt="iamge"></b-img>
+              <br>
               <h3 class="font-weight-semibold">
                 {{ image.text }}
               </h3>

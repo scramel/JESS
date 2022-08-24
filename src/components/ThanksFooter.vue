@@ -8,7 +8,7 @@
             Gracias a nuestro profesionalismo, un importante grupo de empresas han depositado su
 confianza en nosotros
           </h2>
-          <b-button variant="primary" class="text-uppercase">
+          <b-button squared variant="primary" class="text-uppercase">
             contáctenos >
           </b-button>
         </b-col>
