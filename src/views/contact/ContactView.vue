@@ -17,7 +17,7 @@
             <h2 class="mb-3 font-weight-bold">
               Gracias a nuestro profesionalismo, un importante grupo de empresas han depositado su confianza en nosotros
             </h2>
-            <small>
+            <small class="contact-text">
               Nos esforzamos cada día en ofrecerles el mejor servicio minimizando sus costos y optimizando su operación. Si desea más información sobre nosotros.
             </small>
           </b-col>
@@ -27,12 +27,13 @@
             col-lg="4"
             class="py-5 px-0"
           >
-            <div class="py-4 board-bg text-white text-center">
+            <div class="py-4 board-bg text-white text-center contact-block">
               <div class="board-bg__overlay position-absolute" :style="`background-image: url(${image.bg})`"/>
               <div class="board-bg__gradient board-bg__gradient--blue" />
               <div class="py-4 board-bg__content">
                 <b-img fluid :src="image.icon" alt="iamge"></b-img>
-                <p class="py-4">
+                <br>
+                <p class="py-4 contact-block_text">
                   {{ image.text }}
                 </p>
               </div>
@@ -137,6 +138,20 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss">
+  .contact-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 18px;
+  }
 
+  .contact-block {
+    height: 250px;
+    &_text {
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 14px;
+      &_primary {
+        color: #10CFC9;
+      }
+    }
+  }
 </style>
