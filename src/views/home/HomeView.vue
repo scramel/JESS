@@ -9,9 +9,9 @@
             <h1 class="styled-title pt-5 font-weight-bold text-uppercase">
               Nuestro objetivo, es ser su departamento de logistica integral
             </h1>
-            <p class="py-2">
+            <p class="py-2 overlay-text">
               Proporcionamos a nuestros clientes un eficiente e integral servicio
-logístico con soluciones que incluyen transporte aéreo, marítimo y terrestre, nacional e internacional.
+logístico con soluciones que incluyen <span class="overlay-text_primary"> transporte aéreo, marítimo y terrestre, nacional e internacional.</span>
             </p>
             <b-button variant="primary" class="mb-5 text-uppercase">
               conozca mas >
@@ -57,12 +57,12 @@ logístico con soluciones que incluyen transporte aéreo, marítimo y terrestre,
             PROPORCIONAMOS A NUESTROS CLIENTES UN EFICIENTE E INTEGRAL SERVICIO
 LOGÍSTICO.
           </h3>
-          <p class="mb-3">
+          <p class="mb-3 overlay-text">
             Somos una empresa que proporciona a nuestros clientes un eficiente e integral servicio
 logístico con soluciones que incluyen transporte aéreo, marítimo y terrestre, nacional e
 internacional.
           </p>
-          <p class="mb-3">
+          <p class="mb-3 overlay-text">
             Nuestra propuesta incluye una amplia variedad de servicios adicionales, tales como
 trámites aduaneros, asesoría en comercio exterior, trámites especiales, sistema de rastreo
 - control de embarques, almacenaje, logística, empaque y embalaje, seguros de
@@ -130,12 +130,18 @@ export default {
 </script>
 
 <style lang="scss">
-  .styled-title {
-    font-family: 'Monserrat', sans-serif;
-    font-weight: 700;
+  .overlay-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    &_primary {
+      color: #10CFC9;
+    }
   }
+
   .about-block {
     transform: translateY(-50%);
+    height: 250px;
   }
 
   .list-strategies {
@@ -150,6 +156,7 @@ export default {
     &__text {
       margin-top: 1px;
       margin-left: 1px;
+      font-family: 'Nunito Sans', sans-serif;
     }
   }
 </style>
