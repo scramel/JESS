@@ -6,30 +6,30 @@
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav class="ml-auto">
           <b-nav-item href="#">
-            <b-button variant="link" class="text-uppercase font-weight-semibold">
+            <b-button variant="link" class="text-uppercase menu-items">
               <router-link :to="{ name: 'home' }">
-                home
+                Inicio
               </router-link>
             </b-button>
           </b-nav-item>
           <b-nav-item href="#">
-            <b-button variant="link" class="text-uppercase font-weight-semibold">
+            <b-button variant="link" class="text-uppercase menu-items">
             <router-link :to="{ name: 'about' }">
-                about
+                quiénes somos
               </router-link>
             </b-button>
           </b-nav-item>
           <b-nav-item href="#">
-            <b-button variant="link" class="text-uppercase font-weight-semibold">
+            <b-button variant="link" class="text-uppercase menu-items">
               <router-link :to="{ name: 'services' }">
-                services
+                nuestros servicios
               </router-link>
             </b-button>
           </b-nav-item>
           <b-nav-item href="#">
-            <b-button variant="outline-primary" class="text-uppercase font-weight-semibold">
+            <b-button variant="outline-primary" class="text-uppercase menu-items">
               <router-link :to="{ name: 'contact' }">
-                contact
+                contáctenos
               </router-link>
             </b-button>
           </b-nav-item>
@@ -44,3 +44,10 @@ export default {
   name: 'NavBar'
 }
 </script>
+
+<style lang="scss">
+  .menu-items {
+    font-size: 14px;
+    font-weight: 700;
+  }
+</style>

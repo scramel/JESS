@@ -4,7 +4,7 @@
       <NavBar />
       <div class="py-5 text-center text-white font-weight-bold">
         <h1 class="py-5 text-uppercase font-weight-bold">
-          About
+          quiénes somos
         </h1>
       </div>
     </BoardBackgorund>
@@ -17,19 +17,26 @@
         </b-col>
         <b-col offset-lg="1" lg="5" class="mt-5">
           <h3 class="text-uppercase font-weight-semibold">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            NUESTRO OBJETIVO, ES SER SU DEPARTAMENTO DE LOGISTICA INTEGRAL
           </h3>
 
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolore dolorem tenetur numquam aliquam nostrum reprehenderit veritatis excepturi sit quam, eum magni quidem distinctio libero perspiciatis ut nulla neque rem illo?
+            Somos una empresa que proporciona a nuestros clientes un eficiente e integral servicio logístico con soluciones que incluyen transporte aéreo, marítimo y terrestre, nacional e internacional.
+          </p>
+
+          <p>
+            Nuestra propuesta incluye una amplia variedad de servicios adicionales, tales como:
           </p>
 
           <ul class="pl-3">
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
-            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Trámites aduaneros</li>
+            <li>Asesoría en comercio exterior.</li>
+            <li>Trámites especiales</li>
+            <li>Sistema de rastreo - control de embarques</li>
+            <li>Almacenaje y Logística</li>
+            <li>Empaque y embalaje</li>
+            <li>Seguros de transporte</li>
+            <li>Proyectos especiales y servicios intermodales.</li>
           </ul>
 
         </b-col>
@@ -61,7 +68,7 @@
       <b-row class="py-5">
         <b-col class="mb-4" lg="12">
           <h3 class=" text-uppercase font-weight-bold">
-            Title
+            ESTRATEGIAS
           </h3>
         </b-col>
 

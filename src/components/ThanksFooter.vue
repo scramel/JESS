@@ -5,10 +5,11 @@
       <b-row>
         <b-col lg="12 text-center">
           <h2 class="mb-3 font-weight-bold">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate odit corrupti eligendi poss.
+            Gracias a nuestro profesionalismo, un importante grupo de empresas han depositado su
+confianza en nosotros
           </h2>
           <b-button variant="primary" class="text-uppercase">
-            contactenos >
+            contáctenos >
           </b-button>
         </b-col>
       </b-row>

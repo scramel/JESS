@@ -2,22 +2,22 @@ export const blocks = [
   {
     bg: require('@/assets/images/bg-2.jpg'),
     icon: require('@/assets/images/icon-1.svg'),
-    text: 'Lorem ipsum dolor sit amet consectetuz.'
+    text: 'Servicios de Importación y Exportación'
   }, {
     bg: require('@/assets/images/bg-3.jpg'),
     icon: require('@/assets/images/icon-0.svg'),
-    text: 'Lorem ipsum veritatis dolorum id voluptate.'
+    text: 'Servicios de  Agencia Naviera'
   }, {
     bg: require('@/assets/images/bg-1.jpg'),
     icon: require('@/assets/images/icon-2.svg'),
-    text: 'Lorem ipsum  minima praesentium ad.'
+    text: 'Servicios de Brokerage'
   }
 ]
 
 export const strategies = [
-  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum saepe iure voluptatem impedit velit eveniet maiores sit, illum ad ut! Voluptate doloremque veritatis.',
-  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum saepe iure voluptatem impedit velit eveniet maiores sit, illum ad ut! Voluptate doloremque veritatis.',
-  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum saepe iure voluptatem impedit velit eveniet maiores sit, illum ad ut! Voluptate doloremque veritatis.',
-  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum saepe iure voluptatem impedit velit eveniet maiores sit, illum ad ut! Voluptate doloremque veritatis.',
-  'Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum saepe iure voluptatem impedit velit eveniet maiores sit, illum ad ut! Voluptate doloremque veritatis.'
+  'Ofrecer los más competitivos servicios de Aduana, así como asesorías técnicas, legales y tributarias.',
+  'Utilizar las tecnologías más avanzadas para estar siempre conectado con el cliente, en el lugar y al tiempo apropiado.',
+  'Manejo logístico del transporte interno, así como el seguimiento de la carga marítima y aérea.',
+  'Facilitar a la empresa el acceso a un entrenamiento y capacitación del personal responsable en el área.',
+  'Disposición de un servicio integral para las operaciones aduaneras. (Importación, Exportación y Tránsito).'
 ]
