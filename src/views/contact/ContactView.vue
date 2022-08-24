@@ -43,49 +43,44 @@
           <b-col lg="12">
             <b-card border-variant="light" class="mx-5">
               <b-form @submit="onSubmit" @reset="onReset">
+                <b-form-group id="input-group-2" label="Nombre completo:" label-for="input-2">
+                  <b-form-input
+                    id="input-2"
+                    v-model="form.email"
+                    required
+                  ></b-form-input>
+                </b-form-group>
                 <b-form-group
                   id="input-group-1"
-                  label="Email address:"
+                  label="Correo electrónico:"
                   label-for="input-1"
-                  description="We'll never share your email with anyone else."
+                  description="Su dirección de correo no será compartida con nadie mas."
                 >
                   <b-form-input
                     id="input-1"
                     v-model="form.fullname"
                     type="email"
-                    placeholder="Enter email"
                     required
                   ></b-form-input>
                 </b-form-group>
-                <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
-                  <b-form-input
-                    id="input-2"
-                    v-model="form.email"
-                    placeholder="Enter name"
-                    required
-                  ></b-form-input>
-                </b-form-group>
-                <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
+                <b-form-group id="input-group-2" label="Teléfono:" label-for="input-2">
                   <b-form-input
                     id="input-2"
                     v-model="form.phone"
-                    placeholder="Enter name"
                     required
                   ></b-form-input>
                 </b-form-group>
-                <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
+                <b-form-group id="input-group-2" label="Nombre de la empresa:" label-for="input-2">
                   <b-form-input
                     id="input-2"
                     v-model="form.enterprise"
-                    placeholder="Enter name"
                     required
                   ></b-form-input>
                 </b-form-group>
-                <b-form-group id="input-group-2" label="Your Name:" label-for="input-2">
+                <b-form-group id="input-group-2" label="¿En que podemos ayudarle?" label-for="input-2">
                   <b-form-textarea
                     id="textarea"
                     v-model="form.about"
-                    placeholder="Enter something..."
                     rows="3"
                     max-rows="6"
                   ></b-form-textarea>
