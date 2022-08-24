@@ -6,7 +6,7 @@
       <b-container class="my-5">
         <b-row class="pb-5">
           <b-col offset-lg="6" lg="6" class="mb-5 text-white">
-            <h1 class="pt-5 font-weight-bold text-uppercase">
+            <h1 class="styled-title pt-5 font-weight-bold text-uppercase">
               Nuestro objetivo, es ser su departamento de logistica integral
             </h1>
             <p class="py-2">
@@ -82,7 +82,7 @@ transporte, proyectos especiales y servicios intermodales.
       <b-container>
         <b-row class="text-white py-5">
           <b-col class="mb-4" lg="12">
-            <h3 class=" text-uppercase font-weight-bold">
+            <h3 class="text-uppercase font-weight-bold">
               ESTRATEGIAS
             </h3>
           </b-col>
@@ -130,6 +130,10 @@ export default {
 </script>
 
 <style lang="scss">
+  .styled-title {
+    font-family: 'Monserrat', sans-serif;
+    font-weight: 700;
+  }
   .about-block {
     transform: translateY(-50%);
   }
