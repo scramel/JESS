@@ -19,26 +19,24 @@
           <h3 class="text-uppercase font-weight-semibold">
             NUESTRO OBJETIVO, ES SER SU DEPARTAMENTO DE LOGISTICA INTEGRAL
           </h3>
-
-          <p>
-            Somos una empresa que proporciona a nuestros clientes un eficiente e integral servicio logístico con soluciones que incluyen transporte aéreo, marítimo y terrestre, nacional e internacional.
-          </p>
-
-          <p>
-            Nuestra propuesta incluye una amplia variedad de servicios adicionales, tales como:
-          </p>
-
-          <ul class="pl-3">
-            <li>Trámites aduaneros</li>
-            <li>Asesoría en comercio exterior.</li>
-            <li>Trámites especiales</li>
-            <li>Sistema de rastreo - control de embarques</li>
-            <li>Almacenaje y Logística</li>
-            <li>Empaque y embalaje</li>
-            <li>Seguros de transporte</li>
-            <li>Proyectos especiales y servicios intermodales.</li>
-          </ul>
-
+          <div class="about-text">
+            <p>
+              Somos una empresa que proporciona a nuestros clientes un eficiente e integral servicio logístico con soluciones que incluyen transporte aéreo, marítimo y terrestre, nacional e internacional.
+            </p>
+            <p>
+              Nuestra propuesta incluye una amplia variedad de servicios adicionales, tales como:
+            </p>
+            <ul class="pl-3">
+              <li>Trámites aduaneros</li>
+              <li>Asesoría en comercio exterior.</li>
+              <li>Trámites especiales</li>
+              <li>Sistema de rastreo - control de embarques</li>
+              <li>Almacenaje y Logística</li>
+              <li>Empaque y embalaje</li>
+              <li>Seguros de transporte</li>
+              <li>Proyectos especiales y servicios intermodales.</li>
+            </ul>
+          </div>
         </b-col>
       </b-row>
 
@@ -114,7 +112,7 @@ export default {
 </script>
 
 <style lang="scss">
- .list-strategies {
+  .list-strategies {
     &__number {
       width: 30px;
       height: 30px;
@@ -122,8 +120,14 @@ export default {
       border-radius: 50%;
     }
     &__text {
+      font-family: 'Nunito Sans', sans-serif;
       margin-top: 1px;
       margin-left: 1px;
+      font-size: 18px;
     }
+  }
+  .about-text {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
   }
 </style>
