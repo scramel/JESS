@@ -13,8 +13,10 @@
               Proporcionamos a nuestros clientes un eficiente e integral servicio
 logístico con soluciones que incluyen <span class="overlay-text_primary"> transporte aéreo, marítimo y terrestre, nacional e internacional.</span>
             </p>
-            <b-button variant="primary" class="mb-5 text-uppercase">
-              conozca mas >
+            <b-button squared variant="primary" class="mb-5 text-uppercase">
+              <router-link :to="{ name: 'about' }">
+                conozca más >
+              </router-link>
             </b-button>
           </b-col>
         </b-row>
@@ -42,7 +44,9 @@ logístico con soluciones que incluyen <span class="overlay-text_primary"> trans
                 {{ image.text }}
               </h3>
               <b-button class="mb-5 text-uppercase" variant="link">
-                ver mas +
+                <router-link :to="{ name: 'services' }">
+                  conozca mas +
+                </router-link>
               </b-button>
             </div>
           </div>
@@ -70,13 +74,13 @@ trámites aduaneros, asesoría en comercio exterior, trámites especiales, siste
 transporte, proyectos especiales y servicios intermodales.
           </p>
           <b-button class="text-uppercase" variant="primary">
-            leer más >
+            <router-link :to="{ name: 'about' }">
+              leer más >
+            </router-link>
           </b-button>
         </b-col>
       </b-row>
-
     </b-container>
-
     <b-row class="py-5 board-bg mx-0" >
       <div class="board-bg__overlay position-absolute" :style="`background-image: url(${require('@/assets/images/bg-3.jpg')})`"/>
       <div class="board-bg__gradient position-absolute"/>
@@ -87,7 +91,6 @@ transporte, proyectos especiales y servicios intermodales.
               ESTRATEGIAS
             </h3>
           </b-col>
-
           <b-col v-for="(strategy, index) in strategies" :key="index" lg="4">
             <div class="px-3 mb-5">
               <div class="position-absolute list-strategies__number text-center">
@@ -101,7 +104,6 @@ transporte, proyectos especiales y servicios intermodales.
         </b-row>
       </b-container>
     </b-row>
-
     <ThanksFooter />
     <Footer />
   </div>
