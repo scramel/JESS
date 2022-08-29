@@ -13,7 +13,7 @@
               Proporcionamos a nuestros clientes un eficiente e integral servicio
 logístico con soluciones que incluyen <span class="overlay-text_primary"> transporte aéreo, marítimo y terrestre, nacional e internacional.</span>
             </p>
-            <b-button squared variant="primary" class="mb-5 text-uppercase">
+            <b-button squared variant="primary" class="mb-5 text-uppercase home-button">
               <router-link :to="{ name: 'about' }">
                 conozca más >
               </router-link>
@@ -73,7 +73,7 @@ trámites aduaneros, asesoría en comercio exterior, trámites especiales, siste
 - control de embarques, almacenaje, logística, empaque y embalaje, seguros de
 transporte, proyectos especiales y servicios intermodales.
           </p>
-          <b-button class="text-uppercase" variant="primary">
+          <b-button class="text-uppercase home-button" variant="primary">
             <router-link :to="{ name: 'about' }">
               leer más >
             </router-link>
@@ -133,6 +133,15 @@ export default {
 </script>
 
 <style lang="scss">
+  .home-button {
+    > a {
+      text-decoration: none;
+    }
+    > a:hover {
+      text-decoration: none;
+      color: #FFFFFF;
+    }
+  }
   .overlay-text {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
