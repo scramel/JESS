@@ -8,11 +8,11 @@
         </h1>
       </div>
     </BoardBackgorund>
-
+    <br>
     <b-container>
       <b-row class="pb-5">
         <b-col offset-lg="1" lg="4" class="mt-5 overflow-hidden">
-          <img src="@/assets/images/bg-2.jpg" alt="bg-2" height="500px" style="transform: translateX(-25%)">
+          <img src="@/assets/images/bg-2.jpg" alt="bg-2" height="500px" style="transform: translateX(-25%)" class="about-img">
           <!-- <b-img fluid :src="require('@/assets/images/bg-2.jpg')" alt="iamge"></b-img> -->
         </b-col>
         <b-col offset-lg="1" lg="5" class="mt-5">
@@ -47,17 +47,18 @@
           lg="6"
           class="px-0"
         >
-          <div class="board-bg text-white text-center">
+          <div class="board-bg text-white text-center" style="height: 100%;">
             <div class="board-bg__overlay position-absolute" :style="`background-image: url(${image.bg})`"/>
-            <div class="board-bg__gradient board-bg__gradient--blue" />
+            <div class="board-bg__gradient board-bg__gradient--blue board-bg__gradient--filtered" />
             <div class="py-5 board-bg__content">
               <b-img fluid :src="image.icon" alt="iamge"></b-img>
               <h3 class="font-weight-semibold">
                 {{ image.text }}
               </h3>
-              <b-button class="mb-5 text-uppercase" variant="link">
-                ver mas +
-              </b-button>
+              <br>
+                <p class="px-4 m-0 contact-block_text">
+                  {{ image.subtext }}
+                </p>
             </div>
           </div>
         </b-col>
@@ -72,8 +73,8 @@
 
         <b-col v-for="(strategy, index) in strategies" :key="index" lg="4">
           <div class="px-3 mb-5">
-            <div class="position-absolute list-strategies__number text-center bg-primary text-white">
-              <div class="list-strategies__text">
+            <div class="position-absolute numbered-list__number text-center bg-primary text-white">
+              <div class="numbered-list__text">
                 {{ index + 1 }}
               </div>
             </div>
@@ -112,22 +113,13 @@ export default {
 </script>
 
 <style lang="scss">
-  .list-strategies {
-    &__number {
-      width: 30px;
-      height: 30px;
-      left: -20px;
-      border-radius: 50%;
-    }
-    &__text {
-      font-family: 'Nunito Sans', sans-serif;
-      margin-top: 1px;
-      margin-left: 1px;
-      font-size: 18px;
-    }
-  }
   .about-text {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
+  }
+  .about-img {
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
   }
 </style>

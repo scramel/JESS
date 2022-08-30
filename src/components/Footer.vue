@@ -1,5 +1,5 @@
 <template>
-  <div class="py-5 bg-secondary  text-white">
+  <div class="py-5 mt-5 bg-secondary  text-white">
     <b-container>
       <b-row>
         <b-col lg="3">
@@ -15,7 +15,7 @@
         <b-col offset-lg="1" lg="2">
           <b-button variant="link" size="sm">
             <small class="footerLink">
-              <router-link :to="{ name: 'home' }">
+              <router-link class="white-to-primary" :to="{ name: 'home' }">
                 Inicio
               </router-link>
             </small>
@@ -23,7 +23,7 @@
           <br>
           <b-button variant="link" size="sm">
             <small class="footerLink">
-              <router-link :to="{ name: 'about' }">
+              <router-link class="white-to-primary" :to="{ name: 'about' }">
                 Quiénes Sómos
               </router-link>
             </small>
@@ -31,7 +31,7 @@
           <br>
           <b-button variant="link" size="sm">
             <small class="footerLink">
-              <router-link :to="{ name: 'service' }">
+              <router-link class="white-to-primary" :to="{ name: 'services' }">
                 Nuestros Servicios
               </router-link>
             </small>
@@ -39,7 +39,7 @@
           <br>
           <b-button variant="link" size="sm">
             <small class="footerLink">
-              <router-link :to="{ name: 'contact' }">
+              <router-link class="white-to-primary" :to="{ name: 'contact' }">
                 Contáctenos
               </router-link>
             </small>
@@ -102,12 +102,8 @@ export default {
     color: #83C3E6;
   }
 
-  .footerLink > a, a:visited {
-    color: #FFFFFF;
-  }
-
-  .footerLink > a:hover {
-    text-decoration: none;
-    color: #FFFFFF;
+  button:hover {
+    color: white !important;
+    cursor: default;
   }
 </style>

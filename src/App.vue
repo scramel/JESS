@@ -7,14 +7,11 @@
 <style lang="scss">
   body {
     font-family: 'Montserrat' !important;
-
     .btn-link {
       color: inherit;
-      &:hover {
-        text-decoration: none;
-      }
+      cursor: default !important;
+      text-decoration: none !important;
     }
-
     .font-weight-semibold {
       font-weight: 600;
     }

@@ -5,11 +5,10 @@
       <b-row>
         <b-col lg="12 text-center">
           <h2 class="mb-3 font-weight-bold">
-            Gracias a nuestro profesionalismo, un importante grupo de empresas han depositado su
-confianza en nosotros
+            Gracias a nuestro profesionalismo, un importante grupo de empresas han depositado su confianza en nosotros
           </h2>
           <b-button squared variant="primary" class="text-uppercase">
-            <router-link :to="{ name: 'contact' }">
+            <router-link style="color: white;" :to="{ name: 'contact' }">
               contáctenos >
             </router-link>
           </b-button>

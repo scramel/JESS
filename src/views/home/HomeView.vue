@@ -10,11 +10,10 @@
               Nuestro objetivo, es ser su departamento de logistica integral
             </h1>
             <p class="py-2 overlay-text">
-              Proporcionamos a nuestros clientes un eficiente e integral servicio
-logístico con soluciones que incluyen <span class="overlay-text_primary"> transporte aéreo, marítimo y terrestre, nacional e internacional.</span>
+              Proporcionamos a nuestros clientes un eficiente e integral servicio logístico con soluciones que incluyen <span class="overlay-text_primary"> transporte aéreo, marítimo y terrestre, nacional e internacional.</span>
             </p>
             <b-button squared variant="primary" class="mb-5 text-uppercase home-button">
-              <router-link :to="{ name: 'about' }">
+              <router-link style="color: white;" :to="{ name: 'about' }">
                 conozca más >
               </router-link>
             </b-button>
@@ -33,18 +32,20 @@ logístico con soluciones que incluyen <span class="overlay-text_primary"> trans
           :key="index"
           col-lg="4"
           class="px-0"
+          sm
         >
-          <div class="board-bg text-white text-center about-block">
-            <div class="board-bg__overlay position-absolute" :style="`background-image: url(${image.bg})`"/>
-            <div class="board-bg__gradient board-bg__gradient--blue" />
-            <div class="py-4 board-bg__content">
+          <div class="board-bg text-white text-center px-4 about-block hoverable-adjacent">
+            <div class="board-bg board-bg__overlay position-absolute" :style="`background-image: url(${image.bg})`"/>
+            <div class="board-bg__gradient board-bg__gradient--emerald" />
+            <div class="board-bg__gradient board-bg__gradient--blue hoverable" />
+            <div class="d-flex flex-column align-items-center justify-content-center board-bg__content" style="height: 100%;">
               <b-img fluid :src="image.icon" alt="iamge"></b-img>
               <br>
               <h3 class="font-weight-semibold">
                 {{ image.text }}
               </h3>
-              <b-button class="mb-5 text-uppercase" variant="link">
-                <router-link :to="{ name: 'services' }">
+              <b-button class="text-uppercase" variant="link">
+                <router-link class="white-to-primary" :to="{ name: 'services', hash: image.hash }">
                   conozca mas +
                 </router-link>
               </b-button>
@@ -53,7 +54,7 @@ logístico con soluciones que incluyen <span class="overlay-text_primary"> trans
         </b-col>
       </b-row>
 
-      <b-row class="pb-5">
+      <b-row style="margin-top: -4rem; margin-bottom: 4rem;">
         <b-col offset-lg="1" lg="5">
           <b-img fluid :src="require('@/assets/images/bg-4.jpg')" alt="iamge"></b-img>
         </b-col>
@@ -73,15 +74,15 @@ trámites aduaneros, asesoría en comercio exterior, trámites especiales, siste
 - control de embarques, almacenaje, logística, empaque y embalaje, seguros de
 transporte, proyectos especiales y servicios intermodales.
           </p>
-          <b-button class="text-uppercase home-button" variant="primary">
-            <router-link :to="{ name: 'about' }">
+          <b-button squared class="text-uppercase home-button" variant="primary">
+            <router-link style="color: white;" :to="{ name: 'about' }">
               leer más >
             </router-link>
           </b-button>
         </b-col>
       </b-row>
     </b-container>
-    <b-row class="py-5 board-bg mx-0" >
+    <b-row class="my-5 py-5 board-bg mx-0" >
       <div class="board-bg__overlay position-absolute" :style="`background-image: url(${require('@/assets/images/bg-3.jpg')})`"/>
       <div class="board-bg__gradient position-absolute"/>
       <b-container>
@@ -91,10 +92,10 @@ transporte, proyectos especiales y servicios intermodales.
               ESTRATEGIAS
             </h3>
           </b-col>
-          <b-col v-for="(strategy, index) in strategies" :key="index" lg="4">
+          <b-col class="list-sm-fix" v-for="(strategy, index) in strategies" :key="index" lg="4">
             <div class="px-3 mb-5">
-              <div class="position-absolute list-strategies__number text-center">
-                <div class="list-strategies__text">
+              <div class="position-absolute numbered-list__number text-center">
+                <div class="numbered-list__text">
                   {{ index + 1 }}
                 </div>
               </div>
@@ -133,15 +134,6 @@ export default {
 </script>
 
 <style lang="scss">
-  .home-button {
-    > a {
-      text-decoration: none;
-    }
-    > a:hover {
-      text-decoration: none;
-      color: #FFFFFF;
-    }
-  }
   .overlay-text {
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 400;
@@ -153,22 +145,6 @@ export default {
 
   .about-block {
     transform: translateY(-50%);
-    height: 250px;
-  }
-
-  .list-strategies {
-    &__number {
-      width: 30px;
-      height: 30px;
-      left: -20px;
-      border-radius: 50%;
-      border: 2px solid white;
-
-    }
-    &__text {
-      margin-top: 1px;
-      margin-left: 1px;
-      font-family: 'Nunito Sans', sans-serif;
-    }
+    height: 300px;
   }
 </style>
