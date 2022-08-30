@@ -9,7 +9,9 @@
 confianza en nosotros
           </h2>
           <b-button squared variant="primary" class="text-uppercase">
-            contáctenos >
+            <router-link :to="{ name: 'contact' }">
+              contáctenos >
+            </router-link>
           </b-button>
         </b-col>
       </b-row>

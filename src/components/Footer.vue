@@ -14,26 +14,34 @@
         </b-col>
         <b-col offset-lg="1" lg="2">
           <b-button variant="link" size="sm">
-            <small>
-              Inicio
+            <small class="footerLink">
+              <router-link :to="{ name: 'home' }">
+                Inicio
+              </router-link>
             </small>
           </b-button>
           <br>
           <b-button variant="link" size="sm">
-            <small>
-              Quiénes Sómos
+            <small class="footerLink">
+              <router-link :to="{ name: 'about' }">
+                Quiénes Sómos
+              </router-link>
             </small>
           </b-button>
           <br>
           <b-button variant="link" size="sm">
-            <small>
-              Nuestros Servicios
+            <small class="footerLink">
+              <router-link :to="{ name: 'service' }">
+                Nuestros Servicios
+              </router-link>
             </small>
           </b-button>
           <br>
           <b-button variant="link" size="sm">
-            <small>
-              Contáctenos
+            <small class="footerLink">
+              <router-link :to="{ name: 'contact' }">
+                Contáctenos
+              </router-link>
             </small>
           </b-button>
         </b-col>
@@ -92,5 +100,14 @@ export default {
 
   .social {
     color: #83C3E6;
+  }
+
+  .footerLink > a, a:visited {
+    color: #FFFFFF;
+  }
+
+  .footerLink > a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
   }
 </style>
