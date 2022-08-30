@@ -4,7 +4,7 @@
       <NavBar />
       <div class="py-5 text-center text-white font-weight-bold">
         <h1 class="py-5 text-uppercase font-weight-bold">
-          Nuetros servicios
+          Nuestros servicios
         </h1>
       </div>
     </BoardBackgorund>
