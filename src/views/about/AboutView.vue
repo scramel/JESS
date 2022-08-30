@@ -72,8 +72,8 @@
 
         <b-col v-for="(strategy, index) in strategies" :key="index" lg="4">
           <div class="px-3 mb-5">
-            <div class="position-absolute list-strategies__number text-center bg-primary text-white">
-              <div class="list-strategies__text">
+            <div class="position-absolute numbered-list__number text-center bg-primary text-white">
+              <div class="numbered-list__text">
                 {{ index + 1 }}
               </div>
             </div>
@@ -112,20 +112,6 @@ export default {
 </script>
 
 <style lang="scss">
-  .list-strategies {
-    &__number {
-      width: 30px;
-      height: 30px;
-      left: -20px;
-      border-radius: 50%;
-    }
-    &__text {
-      font-family: 'Nunito Sans', sans-serif;
-      margin-top: 1px;
-      margin-left: 1px;
-      font-size: 18px;
-    }
-  }
   .about-text {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;

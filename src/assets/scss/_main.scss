@@ -10,26 +10,40 @@ $social: #83C3E6;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
 
+a {
+    transition: .2s;
+    &:hover { text-decoration: none; }
+    &.white-to-primary {
+        color: white;
+        &:hover { color: $primary !important; }
+    }
+}
+
+.btn:hover { a {color: white;} }
+
 .menu-items {
     font-size: 14px;
     font-weight: 700;
-    a {
-        text-decoration: none;
-        color: white;
-        
-    }
-    a:hover {
-        color: $primary;
-    }
 }
 
 .nb-contact {
     font-size: 14px;
     font-weight: 700;
-    a {
-        text-decoration: none;
+}
+
+.numbered-list {
+    &__number {
+      width: 30px;
+      height: 30px;
+      left: -20px;
+      border-radius: 50%;
+      border: 2px solid white;
+
     }
-    a:hover {
-        color: white;
+    &__text {
+      margin-top: 1px;
+      margin-left: 1px;
+      font-family: 'Nunito Sans', sans-serif;
+      font-size: 18px;
     }
 }

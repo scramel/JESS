@@ -16,6 +16,7 @@ export default {
 
 <style lang="scss">
   .board-bg {
+    transition: .3s;
     position: relative;
     background-repeat: no-repeat;
     background-size: cover;
@@ -44,9 +45,20 @@ export default {
       transform: rotate(180deg);
       background: linear-gradient(#101820 0%, rgba(16, 24, 32, 0.449) 50%, #101820 100%);
 
+      &:hover {
+      transform: scale(1.1);
+    }
+
+      &--filtered {
+        filter: brightness(0.5);
+        filter: contrast(1.5);
+      }
       &--blue {
         // transform: rotate(180deg);
-        background: linear-gradient(0deg, #0E3144 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, #0E3144 0%, rgba(0, 0, 0, 0) 100%);
+        background: linear-gradient(0deg, #0e3744 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(180deg, #0e3744 0%, rgba(0, 0, 0, 0) 100%);
+      }
+      &--emerald {
+      background: linear-gradient(#07070750 0%, rgba(16, 24, 32, 0.449) 50%, #104666 100%);
       }
     }
 

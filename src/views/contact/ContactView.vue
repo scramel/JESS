@@ -27,21 +27,23 @@
             col-lg="4"
             class="py-5 px-0"
           >
-            <div class="py-4 board-bg text-white text-center contact-block">
+            <div class="px-2 board-bg text-white text-center contact-block">
               <div class="board-bg__overlay position-absolute" :style="`background-image: url(${image.bg})`"/>
-              <div class="board-bg__gradient board-bg__gradient--blue" />
-              <div class="py-4 board-bg__content">
+              <div class="board-bg__gradient board-bg__gradient--blue board-bg__gradient--filtered" />
+              <div class="d-flex flex-column align-items-center justify-content-center board-bg__content" style="height: 100%;">
                 <b-img fluid :src="image.icon" alt="iamge"></b-img>
                 <br>
-                <p class="py-4 contact-block_text">
-                  {{ image.text }}
+                <p class="px-4 m-0 contact-block_text">
+                  <span class="overlay-text_primary">{{ image.span }}:</span> {{ image.text }}
                 </p>
               </div>
             </div>
           </b-col>
 
           <b-col lg="12">
-            <b-card border-variant="light" class="mx-5">
+            <b-card border-variant="light" class="contact-form mx-auto col-lg-8">
+              <h3>Llene el siguiente formulario:</h3>
+              <br>
               <b-form @submit="onSubmit" @reset="onReset">
                 <b-form-group id="input-group-2" label="Nombre completo:" label-for="input-2">
                   <b-form-input
@@ -86,8 +88,8 @@
                   ></b-form-textarea>
                 </b-form-group>
                 <b-form-group class="text-right">
-                  <b-button class="mr-3" type="reset" variant="danger">Reset</b-button>
-                  <b-button type="submit" variant="primary">Submit</b-button>
+                  <!-- <b-button class="mr-3" type="reset" variant="danger">Reset</b-button> -->
+                  <b-button type="submit" squared variant="primary">Enviar ></b-button>
                 </b-form-group>
               </b-form>
             </b-card>
@@ -143,10 +145,22 @@ export default {
     height: 250px;
     &_text {
       font-family: 'Nunito Sans', sans-serif;
-      font-size: 14px;
+      font-size: 1rem;
       &_primary {
         color: #10CFC9;
       }
+    }
+  }
+
+  .contact-form {
+    h3 { font-weight: bold; }
+    font-weight: bold;
+    label {
+      font-size: 14px;
+    }
+    input, textarea {
+      background-color: #F5F5F5;
+      border: none;
     }
   }
 </style>
