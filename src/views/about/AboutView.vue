@@ -47,7 +47,7 @@
           lg="6"
           class="px-0"
         >
-          <div class="board-bg text-white text-center">
+          <div class="board-bg text-white text-center" style="height: 100%;">
             <div class="board-bg__overlay position-absolute" :style="`background-image: url(${image.bg})`"/>
             <div class="board-bg__gradient board-bg__gradient--blue board-bg__gradient--filtered" />
             <div class="py-5 board-bg__content">
