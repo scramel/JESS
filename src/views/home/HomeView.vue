@@ -10,8 +10,7 @@
               Nuestro objetivo, es ser su departamento de logistica integral
             </h1>
             <p class="py-2 overlay-text">
-              Proporcionamos a nuestros clientes un eficiente e integral servicio
-logístico con soluciones que incluyen <span class="overlay-text_primary"> transporte aéreo, marítimo y terrestre, nacional e internacional.</span>
+              Proporcionamos a nuestros clientes un eficiente e integral servicio logístico con soluciones que incluyen <span class="overlay-text_primary"> transporte aéreo, marítimo y terrestre, nacional e internacional.</span>
             </p>
             <b-button squared variant="primary" class="mb-5 text-uppercase home-button">
               <router-link style="color: white;" :to="{ name: 'about' }">
@@ -33,10 +32,12 @@ logístico con soluciones que incluyen <span class="overlay-text_primary"> trans
           :key="index"
           col-lg="4"
           class="px-0"
+          sm
         >
-          <div class="board-bg text-white text-center px-4 about-block">
+          <div class="board-bg text-white text-center px-4 about-block hoverable-adjacent">
             <div class="board-bg board-bg__overlay position-absolute" :style="`background-image: url(${image.bg})`"/>
             <div class="board-bg__gradient board-bg__gradient--emerald" />
+            <div class="board-bg__gradient board-bg__gradient--blue hoverable" />
             <div class="d-flex flex-column align-items-center justify-content-center board-bg__content" style="height: 100%;">
               <b-img fluid :src="image.icon" alt="iamge"></b-img>
               <br>
@@ -44,7 +45,7 @@ logístico con soluciones que incluyen <span class="overlay-text_primary"> trans
                 {{ image.text }}
               </h3>
               <b-button class="text-uppercase" variant="link">
-                <router-link style="color: white;" :to="{ name: 'services' }">
+                <router-link class="white-to-primary" :to="{ name: 'services', hash: image.hash }">
                   conozca mas +
                 </router-link>
               </b-button>
@@ -91,7 +92,7 @@ transporte, proyectos especiales y servicios intermodales.
               ESTRATEGIAS
             </h3>
           </b-col>
-          <b-col v-for="(strategy, index) in strategies" :key="index" lg="4">
+          <b-col class="list-sm-fix" v-for="(strategy, index) in strategies" :key="index" lg="4">
             <div class="px-3 mb-5">
               <div class="position-absolute numbered-list__number text-center">
                 <div class="numbered-list__text">

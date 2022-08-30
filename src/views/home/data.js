@@ -2,15 +2,18 @@ export const blocks = [
   {
     bg: require('@/assets/images/bg-2.jpg'),
     icon: require('@/assets/images/icon-1.svg'),
-    text: 'Servicios de Importación y Exportación'
+    text: 'Servicios de Importación y Exportación',
+    hash: '#import-and-export'
   }, {
     bg: require('@/assets/images/bg-3.jpg'),
     icon: require('@/assets/images/icon-0.svg'),
-    text: 'Servicios de  Agencia Naviera'
+    text: 'Servicios de Agencia Naviera',
+    hash: '#shipping-agency'
   }, {
     bg: require('@/assets/images/bg-1.jpg'),
     icon: require('@/assets/images/icon-2.svg'),
-    text: 'Servicios de Brokerage'
+    text: 'Servicios de Brokerage',
+    hash: '#brokerage'
   }
 ]
 

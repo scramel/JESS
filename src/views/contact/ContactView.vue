@@ -12,7 +12,7 @@
     <b-row class="py-5 board-bg mx-0">
       <div class="board-bg__overlay position-absolute" :style="`background-image: url(${require('@/assets/images/bg-5.jpg')}); opacity: 0.1;`"/>
       <b-container class="py-4">
-        <b-row>
+        <b-row class="padding-sm-fix">
           <b-col lg="12" class="text-center">
             <h2 class="mb-3 font-weight-bold">
               Gracias a nuestro profesionalismo, un importante grupo de empresas han depositado su confianza en nosotros
@@ -26,7 +26,7 @@
             :key="index"
             col-lg="4"
             class="py-5 px-0"
-          >
+            sm>
             <div class="px-2 board-bg text-white text-center contact-block">
               <div class="board-bg__overlay position-absolute" :style="`background-image: url(${image.bg})`"/>
               <div class="board-bg__gradient board-bg__gradient--blue board-bg__gradient--filtered" />
@@ -161,6 +161,17 @@ export default {
     input, textarea {
       background-color: #F5F5F5;
       border: none;
+    }
+  }
+
+  .padding-sm-fix {
+    @media only screen and (max-width: 768px) {
+      > div:first-child, > div:nth-child(4) {
+        margin-bottom: 5rem;
+      }
+      div:not(:last-child) {
+        padding: 0 !important;
+      }
     }
   }
 </style>

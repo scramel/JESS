@@ -31,7 +31,7 @@
           <br>
           <b-button variant="link" size="sm">
             <small class="footerLink">
-              <router-link class="white-to-primary" :to="{ name: 'service' }">
+              <router-link class="white-to-primary" :to="{ name: 'services' }">
                 Nuestros Servicios
               </router-link>
             </small>

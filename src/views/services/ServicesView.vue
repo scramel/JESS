@@ -10,7 +10,7 @@
     </BoardBackgorund>
     <b-container>
       <b-row>
-        <b-col lg="12" class="pt-5 pb-5 text-center">
+        <b-col lg="12" class="pt-5 pb-5 text-center buttons-services">
           <b-button squared class="mr-5 text-uppercase" variant="outline-primary" @click="scrollToElement('import-and-export')">
             importación y exportación
           </b-button>
@@ -27,7 +27,7 @@
       </b-row>
 
       <b-row id="import-and-export" class="py-5">
-        <b-col lg="4" class="overflow-hidden">
+        <b-col lg="4" class="overflow-hidden sm-mb  ">
           <img src="@/assets/images/bg-3.jpg" alt="bg-2" height="500px" style="transform: translateX(-25%)">
         </b-col>
         <b-col offset-lg="1" lg="7">
@@ -116,7 +116,7 @@
 
     <b-container id="brokerage">
             <b-row class="py-5">
-        <b-col lg="4" class="overflow-hidden">
+        <b-col lg="4" class="overflow-hidden sm-mb">
           <img src="@/assets/images/bg-10.jpg" alt="bg-10" height="365px" style="transform: translateX(-25%)">
         </b-col>
         <b-col offset-lg="1" lg="7">
@@ -165,7 +165,7 @@
               SERVICIOS ADICIONALES
             </h3>
           </b-col>
-          <b-col v-for="(service, index) in services" :key="index" lg="4">
+          <b-col v-for="(service, index) in services" :key="index" lg="4" class="list-sm-fix">
             <div class="px-3 mb-5">
               <div class="position-absolute numbered-list__number text-center">
                 <div class="numbered-list__text">
@@ -205,12 +205,16 @@ export default {
   methods: {
     scrollToElement(id) {
       const el = document.getElementById(id)
-      console.log(el)
       if (el) {
         // Use el.scrollIntoView() to instantly scroll to the element
-        el.scrollIntoView({ behavior: 'smooth' });
+        this.$nextTick(() => {
+          el.scrollIntoView({ behavior: 'smooth' });
+        })
       }
     }
+  },
+  mounted() {
+    this.scrollToElement(this.$route.hash.substring(1))
   }
 }
 </script>
@@ -219,5 +223,16 @@ export default {
   .text-services {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
+  }
+  .buttons-services {
+    @media only screen and (max-width: 768px) {
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      button { margin-top: 1rem; margin-right: 0 !important; }
+    }
   }
 </style>

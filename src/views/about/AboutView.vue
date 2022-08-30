@@ -8,11 +8,11 @@
         </h1>
       </div>
     </BoardBackgorund>
-
+    <br>
     <b-container>
       <b-row class="pb-5">
         <b-col offset-lg="1" lg="4" class="mt-5 overflow-hidden">
-          <img src="@/assets/images/bg-2.jpg" alt="bg-2" height="500px" style="transform: translateX(-25%)">
+          <img src="@/assets/images/bg-2.jpg" alt="bg-2" height="500px" style="transform: translateX(-25%)" class="about-img">
           <!-- <b-img fluid :src="require('@/assets/images/bg-2.jpg')" alt="iamge"></b-img> -->
         </b-col>
         <b-col offset-lg="1" lg="5" class="mt-5">
@@ -49,15 +49,16 @@
         >
           <div class="board-bg text-white text-center">
             <div class="board-bg__overlay position-absolute" :style="`background-image: url(${image.bg})`"/>
-            <div class="board-bg__gradient board-bg__gradient--blue" />
+            <div class="board-bg__gradient board-bg__gradient--blue board-bg__gradient--filtered" />
             <div class="py-5 board-bg__content">
               <b-img fluid :src="image.icon" alt="iamge"></b-img>
               <h3 class="font-weight-semibold">
                 {{ image.text }}
               </h3>
-              <b-button class="mb-5 text-uppercase" variant="link">
-                ver mas +
-              </b-button>
+              <br>
+                <p class="px-4 m-0 contact-block_text">
+                  {{ image.subtext }}
+                </p>
             </div>
           </div>
         </b-col>
@@ -115,5 +116,10 @@ export default {
   .about-text {
     font-family: 'Nunito Sans', sans-serif;
     font-size: 16px;
+  }
+  .about-img {
+    @media only screen and (max-width: 768px) {
+        display: none;
+    }
   }
 </style>

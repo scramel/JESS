@@ -30,7 +30,7 @@
               </router-link>
             </b-button>
           </b-nav-item>
-          <b-nav-item>
+          <b-nav-item href="#contact">
             <b-button squared variant="outline-primary" class="text-uppercase">
               <router-link :to="{ name: 'contact' }">
                 contáctenos

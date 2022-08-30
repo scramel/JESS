@@ -2,11 +2,13 @@ export const blocks = [
   {
     bg: require('@/assets/images/bg-7.jpg'),
     icon: require('@/assets/images/icon-3.svg'),
-    text: 'Misión'
+    text: 'Misión',
+    subtext: 'Ser una organización líder, que provea una logística en comercio exterior altamente competitiva, donde los clientes logren satisfacer exitosamente sus necesidades de servicio.'
   }, {
     bg: require('@/assets/images/bg-6.jpg'),
     icon: require('@/assets/images/icon-4.svg'),
-    text: 'Visión'
+    text: 'Visión',
+    subtext: 'Ser una organización de servicio, con altos valores éticos y motivacionales, destacando una dinámica orientada al cliente, mediante un equipo interfuncional, que asegure niveles superiores de excelencia.'
   }
 ]
 
