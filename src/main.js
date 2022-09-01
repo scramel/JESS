@@ -9,6 +9,10 @@ import '@/assets/scss/_main.scss'
 // import 'bootstrap-vue/dist/bootstrap-vue.css'
 import { BootstrapVue } from 'bootstrap-vue'
 
+// Title
+import titleMixin from './plugins/titleMixin'
+Vue.mixin(titleMixin)
+
 Vue.use(BootstrapVue)
 
 Vue.config.productionTip = false

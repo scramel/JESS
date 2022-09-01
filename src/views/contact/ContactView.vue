@@ -108,6 +108,9 @@ import Footer from '@/components/Footer.vue'
 import BoardBackgorund from '@/components/BoardBackgorund.vue'
 import { blocks } from './data.js'
 export default {
+  title() {
+    return this.pageTitle
+  },
   name: 'ContactView',
   components: {
     NavBar,
@@ -116,6 +119,7 @@ export default {
   },
   data() {
     return {
+      pageTitle: ('Contáctenos'),
       images: blocks,
       form: {
         fullname: '',
