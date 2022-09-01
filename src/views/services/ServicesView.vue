@@ -190,6 +190,9 @@ import BoardBackgorund from '@/components/BoardBackgorund.vue'
 import ThanksFooter from '@/components/ThanksFooter.vue'
 import { services } from './data.js'
 export default {
+  title() {
+    return this.pageTitle
+  },
   name: 'ServicesView',
   components: {
     NavBar,
@@ -199,6 +202,7 @@ export default {
   },
   data() {
     return {
+      pageTitle: ('Nuestros Servicios'),
       services
     }
   },

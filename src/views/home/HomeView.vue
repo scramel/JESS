@@ -117,6 +117,9 @@ import BoardBackgorund from '@/components/BoardBackgorund.vue'
 import ThanksFooter from '@/components/ThanksFooter.vue'
 import { blocks, strategies } from './data.js'
 export default {
+  title() {
+    return this.pageTitle
+  },
   name: 'HomeView',
   components: {
     NavBar,
@@ -126,6 +129,7 @@ export default {
   },
   data() {
     return {
+      pageTitle: ('Inicio'),
       images: blocks,
       strategies
     }
