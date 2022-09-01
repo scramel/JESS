@@ -96,6 +96,9 @@ import BoardBackgorund from '@/components/BoardBackgorund.vue'
 import ThanksFooter from '@/components/ThanksFooter.vue'
 import { blocks, strategies } from './data.js'
 export default {
+  title() {
+    return this.pageTitle
+  },
   name: 'AboutView',
   components: {
     NavBar,
@@ -105,6 +108,7 @@ export default {
   },
   data() {
     return {
+      pageTitle: ('Quiénes Somos'),
       images: blocks,
       strategies
     }
