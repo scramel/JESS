@@ -1,4 +1,5 @@
-# jess
+# JESS
+See here: https://scramel.github.io/JESS/#/
 
 ## Project setup
 ```
